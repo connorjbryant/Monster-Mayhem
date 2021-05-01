@@ -29,27 +29,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6082345, y: 1.0986685, z: 0.4506011}
   m_Center: {x: -0.03979498, y: 0.5630067, z: -0.14237857}
---- !u!114 &9196912895445279930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 900740384239395818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41d63cdda8fde064d9cc1ee59ad4fd8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 6075717096236547203}
-  explosion:
-  - {fileID: 9196912895546422956}
-  - {fileID: 9196912895325328606}
-  currentExplosion: {fileID: 9196912896351110930}
-  bounce:
-  - {fileID: 8300000, guid: 3622eff81e815b647a3c04ee16e1e865, type: 3}
-  - {fileID: 8300000, guid: cb6dbe6fd2d4d2a4bb51b98664dc8c0f, type: 3}
-  - {fileID: 8300000, guid: 619aa05c7a8403e459284855550c3be5, type: 3}
 --- !u!82 &808921388
 AudioSource:
   m_ObjectHideFlags: 0
@@ -146,6 +125,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &9196912895445279930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900740384239395818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d63cdda8fde064d9cc1ee59ad4fd8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6075717096236547203}
+  explosion:
+  - {fileID: 9196912895546422956}
+  - {fileID: 9196912895325328606}
+  currentExplosion: {fileID: 9196912896351110930}
+  bounce:
+  - {fileID: 8300000, guid: 3622eff81e815b647a3c04ee16e1e865, type: 3}
+  - {fileID: 8300000, guid: cb6dbe6fd2d4d2a4bb51b98664dc8c0f, type: 3}
+  - {fileID: 8300000, guid: 619aa05c7a8403e459284855550c3be5, type: 3}
 --- !u!1 &9196912895531182242
 GameObject:
   m_ObjectHideFlags: 0

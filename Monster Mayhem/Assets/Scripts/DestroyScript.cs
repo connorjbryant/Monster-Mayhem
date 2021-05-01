@@ -31,6 +31,7 @@ public class DestroyScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("SOIC"))
         {
+            GameControlScript.soicHealth -= 1;
             animator.SetTrigger("Attack");
             print("SOIC");
             int index = Random.Range(0, 2);
